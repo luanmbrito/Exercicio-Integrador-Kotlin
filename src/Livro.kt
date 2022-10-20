@@ -5,7 +5,8 @@ open class Livro(codigo:Int,
                  anoLancamento:String,
                  precoVenda:Double,
                  precoAluguel:Double,
-                 estadoAtual:String){
+                 estadoAtual:String,
+                 genero:String){
 
 
     var codigo = codigo
@@ -15,5 +16,6 @@ open class Livro(codigo:Int,
     var precoVenda = precoVenda
     var precoAluguel = precoAluguel
     var estadoAtual = estadoAtual
+    var genero = genero
 
 }
